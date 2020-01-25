@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>NukedBit.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>nukedbit</Authors>
+    <Company>GitHub</Company>
+    <PackageDescription>This contains most used extensions and utilities</PackageDescription>
+    <RepositoryUrl>https://github.com/nukedbit/nukedbit-core</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
