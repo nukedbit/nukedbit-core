@@ -1,0 +1,22 @@
+name: .NET Core
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.0
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+    - name: Publish NuGet
+      with:
+        # Project (csproj) directory path relative from the root of repository
+        project_dir: ./NukedBit.Core # optional, default is . 
+        run: dotnet nuget push "bin/Release/NukedBit.Core.0.0.1.nupkg" --source "github"
