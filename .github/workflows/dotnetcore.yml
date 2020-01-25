@@ -19,3 +19,4 @@ jobs:
       env:
         working-directory: ./NukedBit.Core
       run: dotnet nuget push "bin/Release/NukedBit.Core.0.0.1.nupkg" --source "github"
+      
