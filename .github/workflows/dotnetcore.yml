@@ -18,5 +18,5 @@ jobs:
     - name: Publish NuGet
       env:
         working-directory: ./NukedBit.Core
-      run: dotnet nuget push "bin/Release/NukedBit.Core.0.0.1.nupkg" --source "github"
+      run: dotnet nuget push "bin/Release/NukedBit.Core.0.0.1.nupkg" --source "GitHub"
       
