@@ -5,7 +5,7 @@
     <PackageId>NukedBit.Core</PackageId>
     <Version>0.0.1</Version>
     <Authors>nukedbit</Authors>
-    <Company>GitHub</Company>
+    <Company>NukedBit</Company>
     <PackageDescription>This contains most used extensions and utilities</PackageDescription>
     <RepositoryUrl>https://github.com/nukedbit/nukedbit-core</RepositoryUrl>
   </PropertyGroup>

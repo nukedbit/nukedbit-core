@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <PackageId>NukedBit.Forms.Core</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>nukedbit</Authors>
+    <Company>NukedBit</Company>
+    <PackageDescription>This contains most used extensions and utilities</PackageDescription>
+    <RepositoryUrl>https://github.com/nukedbit/nukedbit-core</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+  </ItemGroup>
+</Project>
