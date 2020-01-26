@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukedBit.Core", "NukedBit.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukedBit.Forms.Core", "NukedBit.Forms.Core\NukedBit.Forms.Core.csproj", "{9F1D25D5-74C0-4DB6-BB2C-F2E0D6BF67ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukedBit.Core.Tests", "NukedBit.Core.Tests\NukedBit.Core.Tests.csproj", "{A39B1AE3-D169-4A82-8BD3-8CE76A76F9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{9F1D25D5-74C0-4DB6-BB2C-F2E0D6BF67ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1D25D5-74C0-4DB6-BB2C-F2E0D6BF67ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1D25D5-74C0-4DB6-BB2C-F2E0D6BF67ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39B1AE3-D169-4A82-8BD3-8CE76A76F9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39B1AE3-D169-4A82-8BD3-8CE76A76F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39B1AE3-D169-4A82-8BD3-8CE76A76F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39B1AE3-D169-4A82-8BD3-8CE76A76F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
