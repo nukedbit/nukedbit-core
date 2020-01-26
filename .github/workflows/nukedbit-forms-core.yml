@@ -27,5 +27,5 @@ jobs:
     - name: Publish NuGet
       run: |
         dir NukedBit.Forms.Core/bin/Release/*.nupkg
-        nuget push "NukedBit.Forms.Core/bin/Release/*.nupkg" -Source "NUKED" -SkipDuplicate
+        nuget push NukedBit.Forms.Core/bin/Release/*.nupkg -Source "NUKED" -SkipDuplicate
       
