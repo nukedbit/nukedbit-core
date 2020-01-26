@@ -16,7 +16,10 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release NukedBit.Core/NukedBit.Core.csproj
+    - name: Run unit tests
+      run: |
+          dotnet test NukedBit.Core.Tests/NukedBit.Core.Tests.csproj 
     - name: Generate NuGet package
       run: dotnet pack -c Release
     - name: Install NuGet client
