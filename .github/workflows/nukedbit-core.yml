@@ -1,7 +1,9 @@
-name: .NET Core
+name: NukedBit Core
 
-on: [push]
-
+on:
+  push:
+    paths: 
+      - 'NukedBit.Core/*'
 jobs:
   build:
 
