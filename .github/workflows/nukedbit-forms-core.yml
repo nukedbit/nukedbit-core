@@ -26,5 +26,6 @@ jobs:
           nuget sources add -name "NUKED" -Source https://nuget.pkg.github.com/nukedbit/index.json -Username nukedbit -Password ${{ secrets.github }}
     - name: Publish NuGet
       run: |
-        nuget push "NukedBit.Forms.Core/bin/Release/NukedBit.Forms.Core.0.0.1.nupkg" -Source "NUKED" -SkipDuplicate
+        dir NukedBit.Forms.Core/bin/Release/*.nupkg
+        nuget push "NukedBit.Forms.Core/bin/Release/*.nupkg" -Source "NUKED" -SkipDuplicate
       
